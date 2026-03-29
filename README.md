@@ -1,15 +1,33 @@
-# 🚀 FRC Engine - Optimization Suite
+# 🚀 FRC ENGINE v1.0.1 - Optimization Suite
 
-Bienvenue sur le dépôt officiel de **FRC Engine**. Cet outil est conçu pour les utilisateurs exigeants cherchant à minimiser la latence de leur système Windows.
+![FRC Engine Preview](preview.png)
 
-## ✨ Fonctionnalités principales
-* **Kernel & Priority** : Optimisation de la priorité Win32 (0x26).
-* **Network Turbo** : Désactivation de l'algorithme de Nagle et optimisation des buffers TCP.
-* **Auto-Clean RAM** : Purge automatique de la mémoire vive via l'API Win32 toutes les 2 secondes.
-* **Power Plan** : Déploiement du plan "FRC Max Power" (Performances Optimales).
-
-## 📥 Téléchargement
-Pour obtenir la dernière version, cliquez sur le fichier `FRC_Engine_Package.zip` ci-dessus, puis sur le bouton **Download**.
+**FRC Engine** est un outil d'optimisation bas niveau conçu pour les gamers exigeants. Il réduit la latence DPC, l'input lag et maximise les performances de votre CPU en temps réel.
 
 ---
-*Optimisé par Mynotorr. Utilisation sous votre propre responsabilité.*
+
+## 🛠️ Fonctionnalités Principales
+
+* **⚡ FRC MAX POWER** : Active un plan d'alimentation ultra-performant (débridage CPU).
+* **🧹 AUTO-CLEAN** : Purge la RAM via l'API Windows toutes les 2 secondes (anti-stutter).
+* **🔥 TURBO MODE** : Détecte votre jeu et lui alloue une priorité CPU "Haute" automatiquement.
+* **🌐 PROMETHEUS ENGINE** : Optimisation des paquets réseau (Nagle Off) pour un meilleur ping.
+* **🎯 KERNEL OPTI** : Ajustement du `Win32PrioritySeparation` (0x26) pour une réactivité maximale.
+
+---
+
+## 📥 Téléchargement & Installation
+
+1. Téléchargez le pack : **[FRC_Engine_Package.zip](https://github.com/mynotorr/FRC-Engine-Dist/raw/main/FRC_Engine_Package.zip)**
+2. Extrayez le dossier sur votre Bureau.
+3. Faites un clic droit sur `FRC_Engine_Pro.exe` > **Exécuter en tant qu'administrateur**.
+4. Activez les options souhaitées et lancez votre jeu !
+
+---
+
+## 🛡️ Sécurité & Signature
+Le logiciel est **signé numériquement** par `FRC-Engine-Mynotorr`. 
+*Note : Étant un certificat auto-signé, cliquez sur "Informations complémentaires" > "Exécuter quand même" lors du premier lancement.*
+
+---
+*Développé avec passion par Mynotorr.*
