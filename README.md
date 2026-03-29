@@ -1,4 +1,4 @@
-# 🚀 FRC ENGINE v1.0.1 - Optimization Suite
+# 🚀 FRC ENGINE - Optimization Suite
 
 ![FRC Engine Preview](preview.png)
 
