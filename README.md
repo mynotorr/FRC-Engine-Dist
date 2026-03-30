@@ -19,9 +19,9 @@ FRC Engine est une suite d'optimisation "Low-Level" conçue par Mynotorr pour ma
 
 📥 Installation Rapide
 
-    Accédez à la section Releases.
+    Cliquez sur le bouton ci-dessus pour accéder à la version la plus récente.
 
-    Téléchargez le dernier package FRC_Engine_Package.zip.
+    Téléchargez le fichier FRC_Engine_Package.zip sous l'onglet Assets.
 
     Extrayez l'archive sur votre bureau.
 
