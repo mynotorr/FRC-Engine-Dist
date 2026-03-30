@@ -2,32 +2,33 @@
 
 ![FRC Engine Preview](preview.png)
 
-**FRC Engine** est un outil d'optimisation bas niveau conçu pour les gamers exigeants. Il réduit la latence DPC, l'input lag et maximise les performances de votre CPU en temps réel.
+🚀 FRC Engine - Optimization Suite
 
----
+FRC Engine est un outil d'optimisation système "low-level" conçu par Mynotorr pour réduire la latence DPC, supprimer l'input lag et stabiliser les performances réseau en jeu.
+🔥 Points Forts
 
-## 🛠️ Fonctionnalités Principales
+    FRC Max Power : Plan d'alimentation débridé pour une fréquence CPU constante.
 
-* **⚡ FRC MAX POWER** : Active un plan d'alimentation ultra-performant (débridage CPU).
-* **🧹 AUTO-CLEAN** : Purge la RAM via l'API Windows toutes les 2 secondes (anti-stutter).
-* **🔥 TURBO MODE** : Détecte votre jeu et lui alloue une priorité CPU "Haute" automatiquement.
-* **🌐 PROMETHEUS ENGINE** : Optimisation des paquets réseau (Nagle Off) pour un meilleur ping.
-* **🎯 KERNEL OPTI** : Ajustement du `Win32PrioritySeparation` (0x26) pour une réactivité maximale.
+    Prometheus Network V2 : Optimisation NetDMA/RSS pour un ping sans jitter.
 
----
+    Auto-Clean RAM : Purge continue de la mémoire vive via API Win32.
 
-## 📥 Téléchargement & Installation
+    Turbo Mode : Attribution automatique de la priorité "Haute" au jeu actif.
 
-1. Téléchargez le pack : **[FRC_Engine_Package.zip](https://github.com/mynotorr/FRC-Engine-Dist/raw/main/FRC_Engine_Package.zip)**
-2. Extrayez le dossier sur votre Bureau.
-3. Faites un clic droit sur `FRC_Engine_Pro.exe` > **Exécuter en tant qu'administrateur**.
-4. Activez les options souhaitées et lancez votre jeu !
+    Zero Latency USB : Désactivation de la mise en veille des contrôleurs pour une réactivité maximale.
 
----
+📥 Téléchargement & Installation
 
-## 🛡️ Sécurité & Signature
-Le logiciel est **signé numériquement** par `FRC-Engine-Mynotorr`. 
-*Note : Étant un certificat auto-signé, cliquez sur "Informations complémentaires" > "Exécuter quand même" lors du premier lancement.*
+    Téléchargez le dernier package FRC_Engine_Package.zip dans la section Releases.
 
+    Extrayez l'archive sur votre bureau.
+
+    Lancez l'exécutable en Administrateur.
+
+    Activez les modules souhaités et laissez le logiciel tourner en arrière-plan pendant vos sessions.
+
+🛡️ Sécurité & Rollback
+
+Chaque build inclut un fichier .reg de sauvegarde pour restaurer les paramètres de priorité Windows par défaut en un clic.
 ---
 *Développé avec passion par Mynotorr.*
