@@ -2,33 +2,51 @@
 
 ![FRC Engine Preview](preview.png)
 
-🚀 FRC Engine - Optimization Suite
+FRC Engine est une suite d'optimisation "Low-Level" conçue par Mynotorr pour maximiser les performances gaming en réduisant la latence système et l'input lag.
+🛠️ Fonctionnalités Clés
 
-FRC Engine est un outil d'optimisation système "low-level" conçu par Mynotorr pour réduire la latence DPC, supprimer l'input lag et stabiliser les performances réseau en jeu.
-🔥 Points Forts
+    Une optimisation profonde pour un gameplay ultra-fluide.
 
-    FRC Max Power : Plan d'alimentation débridé pour une fréquence CPU constante.
+    ⚡ FRC Max Power : Déploie un plan d'alimentation débridé (CPU à 100% sans parking).
 
-    Prometheus Network V2 : Optimisation NetDMA/RSS pour un ping sans jitter.
+    🛰️ Prometheus V2 : Engine réseau optimisant NetDMA, DCA et RSS pour un ping sans Jitter.
 
-    Auto-Clean RAM : Purge continue de la mémoire vive via API Win32.
+    🧠 Auto-Clean RAM : Purge dynamique via API Win32 pour éliminer les micro-stutters.
 
-    Turbo Mode : Attribution automatique de la priorité "Haute" au jeu actif.
+    🎯 Mode Turbo : Détection de jeu en temps réel avec allocation de priorité CPU "Haute".
 
-    Zero Latency USB : Désactivation de la mise en veille des contrôleurs pour une réactivité maximale.
+    🔌 USB Low-Latency : Contrôle des ports USB pour une réactivité souris/clavier instantanée.
 
-📥 Téléchargement & Installation
+📥 Installation Rapide
 
-    Téléchargez le dernier package FRC_Engine_Package.zip dans la section Releases.
+    Accédez à la section Releases.
+
+    Téléchargez le dernier package FRC_Engine_Package.zip.
 
     Extrayez l'archive sur votre bureau.
 
-    Lancez l'exécutable en Administrateur.
+    Lancez l'exécutable en Administrateur 🛡️.
 
-    Activez les modules souhaités et laissez le logiciel tourner en arrière-plan pendant vos sessions.
+📊 Monitoring Intégré
+
+L'interface affiche en temps réel :
+
+    Usage RAM (Barre dynamique)
+
+    Latence Système (en ms)
+
+    Stabilité Réseau (Ping & Jitter)
 
 🛡️ Sécurité & Rollback
 
-Chaque build inclut un fichier .reg de sauvegarde pour restaurer les paramètres de priorité Windows par défaut en un clic.
----
-*Développé avec passion par Mynotorr.*
+Le logiciel inclut un système de restauration :
+
+    Backup automatique du registre lors de l'exécution.
+
+    Fichier Backup_Priorite_ORIGINAL.reg inclus pour un retour arrière facile.
+
+    Bouton Rollback intégré pour réinitialiser les réglages réseau et énergie.
+
+🤝 Support & Communauté
+
+Optimisé avec passion par Mynotorr. Le logiciel se met à jour automatiquement via son système de check interne.
