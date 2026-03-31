@@ -1,54 +1,81 @@
-# 🚀 FRC ENGINE - Optimization Suite
+# 🚀 FRC Engine - Ultimate Optimization Suite (v1.0.5)
 
 ![FRC Engine Preview](preview.png)
 
-![Version](https://img.shields.io/badge/Version-Stable-brightgreen) ![License](https://img.shields.io/badge/License-MIT-blue) ![Windows](https://img.shields.io/badge/Platform-Windows-0078D4)
 
-**FRC Engine** est une suite d'optimisation "Low-Level" conçue par **Mynotorr** pour maximiser les performances gaming en réduisant la latence système et l'input lag.
+[![Version](https://img.shields.io/badge/Version-1.0.5-orange.svg)](https://github.com/mynotorr/FRC-Engine-Dist)
+[![Platform](https://img.shields.io/badge/Platform-Windows-blue.svg)](https://github.com/mynotorr/FRC-Engine-Dist)
+[![License](https://img.shields.io/badge/License-Proprietary-red.svg)](https://github.com/mynotorr/FRC-Engine-Dist)
 
----
-
-### 🛠️ **Fonctionnalités Clés**
-> Une optimisation profonde pour un gameplay ultra-fluide.
-
-* **⚡ FRC Max Power** : Déploie un plan d'alimentation débridé (CPU à 100% sans parking).
-* **🛰️ Prometheus V2** : Engine réseau optimisant NetDMA, DCA et RSS pour un ping sans Jitter.
-* **🧠 Auto-Clean RAM** : Purge dynamique via API Win32 pour éliminer les micro-stutters.
-* **🎯 Mode Turbo** : Détection de jeu en temps réel avec allocation de priorité CPU "Haute".
-* **🔌 USB Low-Latency** : Contrôle des ports USB pour une réactivité souris/clavier instantanée.
+**FRC Engine** est une solution d'optimisation de bas niveau (Low-Level) pour Windows, développée pour les joueurs exigeants. Il transforme votre système en une machine de guerre dédiée au gaming en agissant directement sur le Kernel, la gestion des interruptions CPU et la pile réseau.
 
 ---
 
-### 📥 **Installation Rapide**
+## 📥 TÉLÉCHARGEMENT (DOWNLOAD)
 
-[![Télécharger FRC Engine](https://img.shields.io/badge/TÉLÉCHARGER-DERNIÈRE%20VERSION-orange?style=for-the-badge&logo=windows)](https://github.com/mynotorr/FRC-Engine-Dist/releases/latest)
-
-1. Cliquez sur le bouton **TÉLÉCHARGER** ci-dessus pour accéder à la version la plus récente.
-2. Téléchargez le fichier `FRC_Engine_Package.zip` dans la section **Assets**.
-3. Extrayez l'archive sur votre bureau.
-4. Lancez l'exécutable en **Administrateur** 🛡️.
+> [!IMPORTANT]
+> **Téléchargez la dernière version stable ici :**
+> ### ➔ [Lien Direct : FRC_Engine_Package.zip](https://github.com/mynotorr/FRC-Engine-Dist/raw/main/FRC_Engine_Package.zip)
 
 ---
 
-### 📊 **Monitoring Intégré**
-L'interface affiche en temps réel :
-* **Usage RAM** (Barre dynamique)
-* **Latence Système** (en ms)
-* **Stabilité Réseau** (Ping & Jitter)
+## 💎 Nouveautés Majeures - Version 1.0.5
+
+### 🖥️ Interface de Monitoring Overlay (Widget)
+* **Mode Discret** : Un nouveau bouton **OVERLAY** permet de réduire l'interface principale dans la barre des tâches.
+* **Couleurs Dynamiques** : L'overlay change de couleur selon la charge CPU (Cyan > Orange > Rouge).
+* **Drag & Drop** : Cliquez et glissez l'overlay où vous le souhaitez sur votre écran.
+* **Accès Rapide** : Un bouton **MENU PRINCIPAL** permet de restaurer l'interface complète instantanément.
+
+### 🔍 Diagnostic Matériel (System Info)
+* **Nouveau Panneau Info Système** : Affiche les spécifications détaillées (CPU, GPU, RAM, BIOS, Stockage) pour vérifier que vos composants sont bien reconnus et optimisés.
+
+### 🎮 Détection de Jeu Intelligente
+* Affichage en temps réel du **nom du jeu actif**.
+* Visualisation immédiate du statut des modes **[AUTO-CLEAN]** et **[GAME-FOCUS]**.
 
 ---
 
-### 🛡️ **Sécurité & Rollback**
-Le logiciel inclut un système de restauration :
-* **Backup automatique** du registre lors de l'exécution.
-* Fichier `Backup_Priorite_ORIGINAL.reg` inclus pour un retour arrière facile.
-* Bouton **Rollback** intégré pour réinitialiser les réglages réseau et énergie.
+## 🛠️ Spécifications Techniques
+
+### 1. Kernel & Latence (DPC)
+* **Win32PrioritySeparation (0x26)** : Priorité maximale aux processus au premier plan.
+* **Désactivation HPET & Timers** : Réduction de l'overhead pour une fluidité accrue.
+* **System Responsiveness (0%)** : Suppression de la latence imposée par les services Windows.
+
+### 2. Prometheus Network Engine v2
+* **Nagle Algorithm Off** : Envoi immédiat des paquets pour un ping minimal.
+* **NetDMA & RSS** : Distribution de la charge réseau sur tous les cœurs CPU.
+* **TCP Autotuning** : Stabilisation du flux de données pour éliminer le Jitter.
+
+### 3. Gestion de la RAM & CPU
+* **API EmptyWorkingSet** : Purge de la mémoire vive sans impact sur les performances.
+* **Game Focus** : Forçage de la priorité CPU "Haute" sur votre jeu pour éviter les chutes d'FPS.
 
 ---
 
-### 🤝 **Support & Communauté**
-[![Discord](https://img.shields.io/badge/Discord-Join%20Server-7289DA?style=for-the-badge&logo=discord)](https://discord.gg/eRR4adQ4Wv)
-[![Donate](https://img.shields.io/badge/PayPal-Faire%20un%20don-00457C?style=for-the-badge&logo=paypal)](https://www.paypal.com/ncp/payment/H52TKW7E6PV2S)
+## 📋 Manuel d'Utilisation
+
+1. **Privilèges** : Exécutez impérativement `FRC_Engine.exe` en tant qu'**Administrateur**.
+2. **Initialisation** : Cliquez sur **LANCER L'OPTIMISATION** (38 étapes critiques).
+3. **Validation** : Redémarrez votre PC pour valider les changements Kernel/Registre.
+4. **En Jeu** : Activez **AUTO-CLEAN** et **GAME FOCUS**, puis passez en mode **OVERLAY**.
 
 ---
-*Optimisé avec passion par **Mynotorr**. Le logiciel se met à jour automatiquement via son système de check interne.*
+
+## 📝 Changelog v1.0.5
+- Ajout de l'overlay dynamique et déplaçable.
+- Nouveau bouton de retour au menu principal.
+- Intégration de l'outil "System Info" pour le diagnostic matériel.
+- Optimisation de la détection de processus (Focus Engine).
+- Correction du rafraîchissement des données réseau.
+
+---
+
+## 🤝 Support & Communauté
+
+* **Discord** : [Rejoindre le serveur](https://discord.gg/eRR4adQ4Wv)
+* **Donations** : Soutenez le projet via [PayPal](https://www.paypal.com/ncp/payment/H52TKW7E6PV2S)
+
+---
+*Développé par **Mynotorr**. Utilisez à vos propres risques. Destiné aux systèmes Windows 10/11.*
