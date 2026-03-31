@@ -64,11 +64,13 @@
 ---
 
 ## 📝 Changelog v1.0.5
+- Bouton DEEP CLEAN pour un nettoyage complet (Temp, Windows Update, Prefetch).
 - Ajout de l'overlay dynamique et déplaçable.
 - Nouveau bouton de retour au menu principal.
 - Intégration de l'outil "System Info" pour le diagnostic matériel.
 - Optimisation de la détection de processus (Focus Engine).
 - Correction du rafraîchissement des données réseau.
+- Optimisation des calculs de latence Kernel.
 
 ---
 
