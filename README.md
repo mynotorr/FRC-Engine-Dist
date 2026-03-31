@@ -19,20 +19,36 @@
 
 ---
 
-## 💎 Nouveautés Majeures - Version 1.0.5
+💎 Nouveautés Majeures - Version 1.0.5
+🧹 Nettoyage Système (Deep Clean)
 
-### 🖥️ Interface de Monitoring Overlay (Widget)
-* **Mode Discret** : Un nouveau bouton **OVERLAY** permet de réduire l'interface principale dans la barre des tâches.
-* **Couleurs Dynamiques** : L'overlay change de couleur selon la charge CPU (Cyan > Orange > Rouge).
-* **Drag & Drop** : Cliquez et glissez l'overlay où vous le souhaitez sur votre écran.
-* **Accès Rapide** : Un bouton **MENU PRINCIPAL** permet de restaurer l'interface complète instantanément.
+    Nouveau Bouton DEEP CLEAN : Une solution en un clic pour purger les fichiers inutiles qui encombrent le PC :
 
-### 🔍 Diagnostic Matériel (System Info)
-* **Nouveau Panneau Info Système** : Affiche les spécifications détaillées (CPU, GPU, RAM, BIOS, Stockage) pour vérifier que vos composants sont bien reconnus et optimisés.
+        Suppression des fichiers temporaires utilisateur et système (%TEMP%).
 
-### 🎮 Détection de Jeu Intelligente
-* Affichage en temps réel du **nom du jeu actif**.
-* Visualisation immédiate du statut des modes **[AUTO-CLEAN]** et **[GAME-FOCUS]**.
+        Nettoyage du cache de téléchargement Windows Update (libère plusieurs Go).
+
+        Purge des fichiers Prefetch obsolètes pour optimiser la réactivité disque.
+
+🖥️ Interface de Monitoring Overlay (Widget)
+
+    Mode Discret : Un nouveau bouton OVERLAY permet de réduire l'interface principale dans la barre des tâches.
+
+    Couleurs Dynamiques : L'overlay change de couleur selon la charge CPU (Cyan > Orange > Rouge).
+
+    Drag & Drop : Cliquez et glissez l'overlay où vous le souhaitez sur votre écran.
+
+    Accès Rapide : Un bouton MENU PRINCIPAL permet de restaurer l'interface complète instantanément.
+
+🔍 Diagnostic Matériel (System Info)
+
+    Nouveau Panneau Info Système : Affiche les spécifications détaillées (CPU, GPU, RAM, BIOS, Stockage) pour vérifier que vos composants sont bien reconnus et optimisés.
+
+🎮 Détection de Jeu Intelligente
+
+    Affichage en temps réel du nom du jeu actif.
+
+    Visualisation immédiate du statut des modes [AUTO-CLEAN] et [GAME-FOCUS].
 
 ---
 
