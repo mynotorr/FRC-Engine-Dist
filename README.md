@@ -52,7 +52,6 @@ Pour une efficacité maximale, **FRC ENGINE DOIT RESTER OUVERT PENDANT QUE VOUS 
 ### 🧹 Nettoyage & Réseau
 * **DEEP CLEAN :** Supprime les fichiers temporaires et les résidus massifs de Windows Update.
 * **NETTOYAGE RÉSEAU :** Reset TCP/IP, vide le cache DNS et stabilise le ping.
-* **SHADER CACHE :** Purge les caches NVIDIA/AMD pour éliminer les chutes de FPS inexpliquées.
 
 ### 🖥️ Monitoring (Overlay)
 * **OVERLAY :** Affiche un tableau de bord compact en jeu (PERF SCORE, PING, JITTER, STABILITÉ).
