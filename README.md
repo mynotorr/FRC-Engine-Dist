@@ -22,7 +22,7 @@
 ## ⚠️ AVERTISSEMENTS IMPORTANTS
 
 ### 🕒 Fréquence d'utilisation
-L'optimisation système (bouton **LANCER OPTI**) ne doit être effectuée qu'**UNE FOIS PAR MOIS** au maximum, ou après une mise à jour majeure de Windows. Une fois les paramètres injectés dans le Kernel, ils sont persistants. Il est inutile et déconseillé de relancer l'optimisation tous les jours.
+L'optimisation système (bouton **LANCER OPTI**) ne doit être effectuée qu'**UNE FOIS PAR MOIS**, ou après une mise à jour majeure de Windows. Une fois les paramètres injectés dans le Kernel, ils sont persistants. Il est inutile et déconseillé de relancer l'optimisation tous les jours.
 
 ### 📉 Saccades temporaires (Shaders)
 Après avoir utilisé FRC Engine, il est **NORMAL** de ressentir des micro-saccades lors de vos premières minutes de jeu. 
