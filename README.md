@@ -1,4 +1,4 @@
-# 🚀 FRC Engine - Optimization Suite (v1.0.5)
+# 🚀 FRC Engine - Optimization Suite (v1.0.6)
 
 ![FRC Engine Preview](preview.png)
 
@@ -19,7 +19,7 @@
 
 ---
 
-## 💎 Nouveautés Majeures - Version 1.0.5
+## 💎 Nouveautés Majeures - Version 1.0.6
 
 ### 🧹 Nettoyage Système (Deep Clean)
 * **Nouveau Bouton DEEP CLEAN** : Une solution en un clic pour purger les fichiers inutiles qui encombrent le PC :
