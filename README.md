@@ -8,10 +8,16 @@
 
 ---
 
-## 👀 Preview
+## 👀 Preview de l'Interface
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mynotorr/FRC-Engine-Dist/main/preview.png" alt="FRC Engine Preview" width="800">
+  <img src="https://raw.githubusercontent.com/mynotorr/FRC-Engine-Dist/main/preview.png" alt="FRC Engine Interface Preview" width="800">
 </p>
+
+## 🖥️ Vue de l'Overlay (En Jeu)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mynotorr/FRC-Engine-Dist/main/overlay.png" alt="FRC Engine Overlay Preview" width="500">
+</p>
+<p align="center"><em>Un tableau de bord discret et performant, directement par-dessus votre jeu.</em></p>
 
 ---
 
