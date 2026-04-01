@@ -8,7 +8,7 @@
 <p align="center">
   <img src="https://img.shields.io/github/v/release/mynotorr/FRC-Engine-Dist?style=for-the-badge&color=cyan">
   <img src="https://img.shields.io/github/downloads/mynotorr/FRC-Engine-Dist/total?style=for-the-badge&color=green">
-  <img src="https://img.shields.io/github/languages/top/mynotorr/FRC-Engine-Dist?style=for-the-badge&color=blue">
+  [<img src="https://img.shields.io/github/languages/top/mynotorr/FRC-Engine-Dist?style=for-the-badge&color=blue">](https://img.shields.io/badge/Language-PowerShell-blue?style=for-the-badge&logo=powershell)
 </p>
 
 **FRC Engine** est une suite d'optimisation de "bas niveau" conçue pour transformer Windows en une plateforme de jeu ultra-réactive. Contrairement aux simples nettoyeurs de fichiers, FRC Engine agit directement sur le **Kernel (noyau)** pour réduire l'**Input Lag** et stabiliser les **Frametimes**.
