@@ -1,5 +1,10 @@
 # 🚀 FRC Engine v1.0.6 - Optimization Suite
 
+## 👀 Preview
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mynotorr/FRC-Engine-Dist/main/preview.png" alt="FRC Engine Preview" width="800">
+</p>
+
 <p align="center">
   <img src="https://img.shields.io/github/v/release/mynotorr/FRC-Engine-Dist?style=for-the-badge&color=cyan">
   <img src="https://img.shields.io/github/downloads/mynotorr/FRC-Engine-Dist/total?style=for-the-badge&color=green">
