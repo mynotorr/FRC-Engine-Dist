@@ -67,7 +67,7 @@ Pour une efficacité maximale, **FRC ENGINE DOIT RESTER OUVERT PENDANT QUE VOUS 
 | **0 - 150** | **LOW** | Système lourd, Input Lag perceptible. |
 | **150 - 300** | **OPTIMAL** | Configuration saine pour le gaming. |
 | **300 - 500** | **ULTRA** | Zone FRC. Réactivité quasi-instantanée. |
-| **500+** | **GOD MODE** | Performance E-Sport. Latence Kernel minimale. |
+| **500+** | **GOD MODE** | Performance Maximale. |
 
 ---
 
