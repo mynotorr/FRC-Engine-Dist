@@ -46,7 +46,7 @@ Après avoir utilisé FRC Engine, il est **NORMAL** de ressentir des micro-sacca
 
 ---
 
-## 🛠️ Pourquoi laisser FRC allumé ? (Maintenance Live)
+## 🛠️ Pourquoi laisser FRC ENGINE allumé ? (Maintenance Live)
 Pour une efficacité maximale, **FRC ENGINE DOIT RESTER OUVERT PENDANT QUE VOUS JOUEZ** :
 * **AUTO-CLEAN :** Sans lui, Windows accumule des "déchets" en RAM qui causent des micro-saccades (*stutters*) lors de vos mouvements de souris rapides. Il nettoie votre mémoire toutes les 30 secondes.
 * **GAME FOCUS :** Si FRC est fermé, Windows reprend ses mauvaises habitudes et traite les tâches de fond avant votre jeu. Game Focus force votre CPU à se concentrer uniquement sur votre performance.
