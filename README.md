@@ -5,7 +5,16 @@
   <img src="https://img.shields.io/github/downloads/mynotorr/FRC-Engine-Dist/total?style=for-the-badge&color=green">
   <img src="https://img.shields.io/badge/Language-PowerShell-blue?style=for-the-badge&logo=powershell">
 </p>
+---
 
+### 🛠️ Modifications apportées
+
+* **📺 Modif. Overlay (Z-Order) :** Correction majeure pour l'affichage en plein écran. L'overlay utilise désormais un forçage de priorité via l'API Windows pour rester visible sur les jeux en mode exclusif.
+* **⚙️ Modif. Kernel :** Désactivation de l'isolation du noyau (**VBS/HVCI**) pour éliminer les micro-saccades CPU et libérer des ressources système.
+* **🔌 Modif. Hardware :** Passage forcé du GPU en **MSI Mode** (Message Signaled Interrupts) pour réduire l'input lag matériel.
+* **🌐 Modif. Réseau :** Suppression du **Network Throttling** pour une stabilité maximale du ping.
+* **🧵 Modif. Threading :** Affinité CPU optimisée (**Exclusion du Core 0**) pour stabiliser le frametime.
+* **🧹 Modif. Auto-Clean (30s) :** Purge haute fréquence de la RAM et de la Standby List toutes les 30 secondes pour une fluidité constante.
 ---
 
 ## 👀 Preview de l'Interface
