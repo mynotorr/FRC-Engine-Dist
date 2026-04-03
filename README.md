@@ -84,6 +84,15 @@ Pour une efficacité maximale, **FRC ENGINE DOIT RESTER OUVERT PENDANT QUE VOUS 
 | **300 - 500** | **ULTRA** | Zone FRC. Réactivité quasi-instantanée. |
 | **500+** | **GOD MODE** | Performance Maximale. |
 
+## 🩺 Santé du Système (PC HEALTH)
+Le moteur de santé analyse en temps réel la charge du PC pour maintenir la stabilité du score et prévenir les ralentissements.
+
+| État | Couleur | Diagnostic | Action du Moteur FRC |
+| :--- | :--- | :--- | :--- |
+| **STABLE** | 🔵 **Bleu** | **OPTIMAL** | RAM libérée et latence Kernel stable. Aucun processus parasite. |
+| **ACTIF** | 🟠 **Orange** | **TRAVAIL** | L'optimisation est en cours. Stabilisation des flux en arrière-plan. |
+| **SURCHARGE** | 🔴 **Rouge** | **INTENSIF** | Forte charge détectée (CPU/RAM/Cache). | **Le moteur travaille au maximum** pour restaurer la fluidité. |
+
 ---
 
 ## 🔗 Liens & Réseaux
