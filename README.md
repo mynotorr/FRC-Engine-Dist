@@ -8,7 +8,8 @@
 ---
 
 ### 🛠️ Modifications apportées
-
+* **SANTÉ DU PC** : Diagnostic en temps réel.
+Le moteur de santé analyse 4 points vitaux en temps réel pour maintenir la stabilité du score
 * **📺 Modif. Overlay (Z-Order) :** Correction majeure pour l'affichage en plein écran. L'overlay utilise désormais un forçage de priorité via l'API Windows pour rester visible sur les jeux en mode exclusif.
 * **⚙️ Modif. Kernel :** Désactivation de l'isolation du noyau (**VBS/HVCI**) pour éliminer les micro-saccades CPU et libérer des ressources système.
 * **🔌 Modif. Hardware :** Passage forcé du GPU en **MSI Mode** (Message Signaled Interrupts) pour réduire l'input lag matériel.
