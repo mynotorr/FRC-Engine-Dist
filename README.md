@@ -61,7 +61,7 @@ Pour une efficacité maximale, **FRC ENGINE DOIT RESTER OUVERT PENDANT QUE VOUS 
 * **ROLLBACK :** **BOUTON DE SECOURS.** Restaure instantanément les valeurs par défaut de Windows.
 
 ### 🧠 Maintenance Temps Réel
-* **AUTO-CLEAN :** Active le nettoyage intelligent de la RAM toutes les 6 secondes.
+* **AUTO-CLEAN :** Active le nettoyage intelligent de la RAM toutes les 30 secondes.
 * **GAME FOCUS :** Alloue dynamiquement une priorité CPU maximale à votre jeu actif.
 * **VIDER RAM :** Purge manuelle instantanée de la mémoire vive.
 
