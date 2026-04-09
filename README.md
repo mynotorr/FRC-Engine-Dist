@@ -1,22 +1,22 @@
-# 🚀 FRC Engine v1.0.6 - Optimization Suite
+# 🚀 FRC Engine v2.0 - Optimization Suite
 
 <p align="center">
   <img src="https://img.shields.io/github/v/release/mynotorr/FRC-Engine-Dist?style=for-the-badge&color=cyan">
   <img src="https://img.shields.io/github/downloads/mynotorr/FRC-Engine-Dist/total?style=for-the-badge&color=green">
   <img src="https://img.shields.io/badge/Language-PowerShell-blue?style=for-the-badge&logo=powershell">
 </p>
+
 ---
 
-### 🛠️ Modifications apportées
-* **🔌 Démarrage Automatique** : Nouveau bouton **"DÉMARRAGE : ON/OFF"**. Permet de lancer vos optimisations avec privilèges **Admin** dès l'ouverture de session.
-* **🩺 SANTÉ DU PC** : Diagnostic en temps réel.
-Le moteur de santé analyse 4 points vitaux en temps réel pour maintenir la stabilité du score
-* **📺 Modif. Overlay (Z-Order) :** Correction majeure pour l'affichage en plein écran. L'overlay utilise désormais un forçage de priorité via l'API Windows pour rester visible sur les jeux en mode exclusif.
-* **⚙️ Modif. Kernel :** Désactivation de l'isolation du noyau (**VBS/HVCI**) pour éliminer les micro-saccades CPU et libérer des ressources système.
-* **🔌 Modif. Hardware :** Passage forcé du GPU en **MSI Mode** (Message Signaled Interrupts) pour réduire l'input lag matériel.
-* **🌐 Modif. Réseau :** Suppression du **Network Throttling** pour une stabilité maximale du ping.
-* **🧵 Modif. Threading :** Affinité CPU optimisée (**Exclusion du Core 0**) pour stabiliser le frametime.
-* **🧹 Modif. Auto-Clean (30s) :** Purge haute fréquence de la RAM et de la Standby List toutes les 30 secondes pour une fluidité constante.
+### 🛠️ Nouveautés de la v2.0
+* **🧠 Refonte du moteur live :** Réorganisation et nettoyage du comportement temps réel pour un fonctionnement plus cohérent, plus propre et plus réactif.
+* **🎮 Game Focus amélioré :** Détection du jeu actif retravaillée, meilleure gestion du focus réel, et réduction des faux maintiens après retour bureau / Alt+Tab.
+* **⚡ Low Latency peaufiné :** Mode faible latence optimisé pour des transitions plus propres, une meilleure réactivité et un comportement plus stable en session.
+* **📺 Overlay amélioré :** Affichage live plus cohérent entre interface, overlay et états internes du moteur.
+* **🧾 Logs nettoyés :** Suppression de doublons inutiles et meilleure lisibilité des événements importants.
+* **🎨 Interface harmonisée :** Cohérence renforcée des libellés, de l’affichage et des états visibles.
+* **🛡️ Base plus robuste :** Nettoyage des incohérences internes et consolidation générale du script pour une version finale plus stable.
+
 ---
 
 ## 👀 Preview de l'Interface
@@ -28,71 +28,127 @@ Le moteur de santé analyse 4 points vitaux en temps réel pour maintenir la sta
 <p align="center">
   <img src="https://raw.githubusercontent.com/mynotorr/FRC-Engine-Dist/main/overlay.png" alt="FRC Engine Overlay Preview" width="500">
 </p>
-<p align="center"><em>Un tableau de bord discret et performant, directement par-dessus votre jeu.</em></p>
+<p align="center"><em>Un tableau de bord discret, nerveux et pensé pour le jeu.</em></p>
 
 ---
 
-**FRC Engine** est une suite d'optimisation de "bas niveau" conçue pour transformer Windows en une plateforme de jeu ultra-réactive. Contrairement aux simples nettoyeurs de fichiers, FRC Engine agit directement sur le **Kernel (noyau)** pour réduire l'**Input Lag** et stabiliser les **Frametimes**.
+**FRC Engine** est une suite d’optimisation Windows orientée **gaming compétitif**, conçue pour améliorer la **réactivité**, réduire l’**input lag**, stabiliser les **frametimes** et maintenir un système plus propre pendant vos sessions de jeu.
+
+Contrairement à un simple nettoyeur, FRC Engine agit à plusieurs niveaux :
+- optimisation système
+- maintenance temps réel
+- nettoyage mémoire
+- suivi live du contexte jeu
+- overlay de monitoring
+- modules orientés performance et faible latence
 
 ---
 
 ## ⚠️ AVERTISSEMENTS IMPORTANTS
 
 ### 🕒 Fréquence d'utilisation
-L'optimisation système (bouton **LANCER OPTI**) ne doit être effectuée qu'**UNE FOIS PAR MOIS**, ou après une mise à jour majeure de Windows. Une fois les paramètres injectés dans le Kernel, ils sont persistants. Il est inutile et déconseillé de relancer l'optimisation tous les jours.
+L’optimisation système principale (**LANCER OPTI**) ne doit pas être lancée inutilement tous les jours.  
+Elle est recommandée :
+- après installation
+- après une mise à jour majeure de Windows
+- après un gros changement système
+- ponctuellement pour repartir sur une base propre
 
-### 📉 Saccades temporaires (Shaders)
-Après avoir utilisé FRC Engine, il est **NORMAL** de ressentir des micro-saccades lors de vos premières minutes de jeu. 
-* **Pourquoi ?** Le script nettoie les "Shaders Caches" pour garantir une base saine. 
-* **Solution :** Jouez normalement pendant 5 à 10 minutes. Votre carte graphique va reconstruire des fichiers de cache propres, et la fluidité sera bien supérieure à celle d'origine.
+### 🔁 Redémarrage
+Certaines optimisations système peuvent nécessiter un **redémarrage** pour être pleinement prises en compte.
+
+### 🎮 Utilisation en jeu
+Pour profiter pleinement des fonctions live, il est recommandé de **laisser FRC Engine ouvert pendant la session de jeu**.
 
 ---
 
-## 🛠️ Pourquoi laisser FRC ENGINE allumé ? (Maintenance Live)
-Pour une efficacité maximale, **FRC ENGINE DOIT RESTER OUVERT PENDANT QUE VOUS JOUEZ** :
-* **AUTO-CLEAN :** Sans lui, Windows accumule des "déchets" en RAM qui causent des micro-saccades (*stutters*) lors de vos mouvements de souris rapides. Il nettoie votre mémoire toutes les 30 secondes.
-* **GAME FOCUS :** Si FRC ENGINE est fermé, Windows reprend ses mauvaises habitudes et traite les tâches de fond avant votre jeu. Game Focus force votre CPU à se concentrer uniquement sur votre performance.
+## 🛠️ Pourquoi laisser FRC Engine actif pendant que vous jouez ?
+
+### AUTO-CLEAN
+Permet de maintenir la mémoire dans un état plus propre pendant la session afin de limiter l’accumulation inutile et certains stutters.
+
+### GAME FOCUS
+Renforce le comportement orienté jeu lorsque le moteur détecte un contexte compatible au premier plan.
+
+### LOW LATENCY
+Ajoute une logique plus agressive orientée réactivité pour les usages gaming sensibles à la latence.
+
+### OVERLAY
+Affiche en direct les états utiles du moteur sans avoir à revenir constamment sur l’interface principale.
 
 ---
 
-## 🕹️ Guide Complet des Boutons & Fonctions
+## 🕹️ Guide des Boutons & Fonctions
 
 ### ⚡ Optimisation Principale
-* **LANCER OPTI :** Le bouton maître. Il applique les 38 optimisations Kernel (Win32Priority, HPET, IRQ). **Nécessite un redémarrage.**
-* **ROLLBACK :** **BOUTON DE SECOURS.** Restaure instantanément les valeurs par défaut de Windows.
+* **LANCER OPTI :** applique les optimisations principales prévues par FRC Engine. Un redémarrage peut être nécessaire.
+* **ROLLBACK :** restaure un état plus proche des valeurs par défaut pour annuler les optimisations.
 
 ### 🧠 Maintenance Temps Réel
-* **AUTO-CLEAN :** Active le nettoyage intelligent de la RAM toutes les 30 secondes.
-* **GAME FOCUS :** Alloue dynamiquement une priorité CPU maximale à votre jeu actif.
-* **VIDER RAM :** Purge manuelle instantanée de la mémoire vive.
+* **AUTO-CLEAN :** nettoyage mémoire automatique en session.
+* **GAME FOCUS :** focalise le moteur sur le jeu actif détecté.
+* **LOW LATENCY :** renforce le comportement orienté faible latence.
+* **VIDER RAM :** purge mémoire manuelle immédiate.
 
 ### 🧹 Nettoyage & Réseau
-* **DEEP CLEAN :** Supprime les fichiers temporaires et les résidus massifs de Windows Update.
-* **NETTOYAGE RÉSEAU :** Reset TCP/IP, vide le cache DNS et stabilise le ping.
+* **DEEP CLEAN :** nettoyage système plus poussé.
+* **NETTOYAGE RÉSEAU :** remise à plat réseau pour repartir sur une base plus saine.
 
-### 🖥️ Monitoring (Overlay)
-* **OVERLAY :** Affiche un tableau de bord compact en jeu (PERF SCORE, PING, JITTER, STABILITÉ).
-* **INFO LOGICIEL / SYSTÈME :** Affiche les détails complets de votre matériel (CPU, GPU, RAM).
+### 🖥️ Monitoring
+* **OVERLAY :** affiche les informations live en jeu.
+* **INFO LOGICIEL / SYSTÈME :** affiche les informations utiles sur le logiciel, le système et le matériel.
+
+### 🔌 Démarrage
+* **DÉMARRAGE AUTOMATIQUE :** permet de lancer FRC Engine automatiquement à l’ouverture de session.
 
 ---
 
-## 📊 Comprendre le PERF SCORE
+##🩺- Fluidité : indique en temps réel la qualité globale de fluidité de la session (stabilité, régularité et sensation de jeu plus lisse).
 
-| Score | État | Ressenti |
-| :--- | :--- | :--- |
-| **0 - 150** | **LOW** | Système lourd, Input Lag perceptible. |
-| **150 - 300** | **OPTIMAL** | Configuration saine pour le gaming. |
-| **300 - 500** | **ULTRA** | Zone FRC. Réactivité quasi-instantanée. |
-| **500+** | **GOD MODE** | Performance Maximale. |
+##🩺- Santé PC : indique en temps réel l’état général du système afin de montrer si le PC reste stable, sain et bien équilibré pendant l’utilisation.
 
-## 🩺 Santé du Système (PC HEALTH)
-Le moteur de santé analyse en temps réel la charge du PC pour maintenir la stabilité du score et prévenir les ralentissements.
+---
 
-| État | Couleur | Diagnostic | Action du Moteur FRC |
-| :--- | :--- | :--- | :--- |
-| **STABLE** | 🔵 **Bleu** | **OPTIMAL** | RAM libérée et latence Kernel stable. Aucun processus parasite. |
-| **ACTIF** | 🟠 **Orange** | **TRAVAIL** | L'optimisation est en cours. Stabilisation des flux en arrière-plan. |
-| **SURCHARGE** | 🔴 **Rouge** | **INTENSIF** | Forte charge détectée (CPU/RAM/Cache). | **Le moteur travaille au maximum** pour restaurer la fluidité. |
+## ✅ Ce que la v2.0 améliore concrètement
+
+- meilleure cohérence globale du moteur
+- meilleure gestion du focus jeu
+- transitions bureau / jeu plus propres
+- comportement live plus stable
+- logs plus propres
+- overlay plus cohérent
+- base plus solide pour les futures évolutions
+
+---
+
+## 🔗 Liens & Réseaux
+
+<p align="left">
+  <a href="https://github.com/mynotorr/FRC-Engine-Dist/releases">
+    <img src="https://img.shields.io/badge/TÉLÉCHARGER-FRC_ENGINE-cyan?style=for-the-badge&logo=github">
+  </a>
+  <a href="https://www.paypal.com/ncp/payment/H52TKW7E6PV2S">
+    <img src="https://img.shields.io/badge/SOUTENIR-PAYPAL-blue?style=for-the-badge&logo=paypal">
+  </a>
+  <a href="https://discord.gg/votre_lien">
+    <img src="https://img.shields.io/badge/DISCORD-COMMUNAUTÉ-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+  </a>
+</p>
+
+---
+
+## 🛡️ Sécurité
+* **Zéro Bloatware :** utilisation des ressources natives de Windows.
+* **Approche orientée performance :** logique pensée pour le gaming compétitif.
+* **Distribution propre :** base consolidée pour une version plus stable et plus lisible.
+
+---
+
+## ❤️ Crédits
+
+**Powered by Mynotorr and Bobby**
+
+**Développé par [Mynotorr](https://github.com/mynotorr)**
 
 ---
 
