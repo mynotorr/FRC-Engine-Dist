@@ -103,9 +103,9 @@ Affiche en direct les états utiles du moteur sans avoir à revenir constamment 
 
 ---
 
-##🩺- Fluidité : indique en temps réel la qualité globale de fluidité de la session (stabilité, régularité et sensation de jeu plus lisse).
+### 🩺 Fluidité : indique en temps réel la qualité globale de fluidité de la session (stabilité, régularité et sensation de jeu plus lisse).
 
-##🩺- Santé PC : indique en temps réel l’état général du système afin de montrer si le PC reste stable, sain et bien équilibré pendant l’utilisation.
+### 🩺 Santé PC : indique en temps réel l’état général du système afin de montrer si le PC reste stable, sain et bien équilibré pendant l’utilisation.
 
 ---
 
