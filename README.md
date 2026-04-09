@@ -121,21 +121,7 @@ Affiche en direct les états utiles du moteur sans avoir à revenir constamment 
 
 ---
 
-## 🔗 Liens & Réseaux
 
-<p align="left">
-  <a href="https://github.com/mynotorr/FRC-Engine-Dist/releases">
-    <img src="https://img.shields.io/badge/TÉLÉCHARGER-FRC_ENGINE-cyan?style=for-the-badge&logo=github">
-  </a>
-  <a href="https://www.paypal.com/ncp/payment/H52TKW7E6PV2S">
-    <img src="https://img.shields.io/badge/SOUTENIR-PAYPAL-blue?style=for-the-badge&logo=paypal">
-  </a>
-  <a href="https://discord.gg/votre_lien">
-    <img src="https://img.shields.io/badge/DISCORD-COMMUNAUTÉ-5865F2?style=for-the-badge&logo=discord&logoColor=white">
-  </a>
-</p>
-
----
 
 ## 🛡️ Sécurité
 * **Zéro Bloatware :** utilisation des ressources natives de Windows.
