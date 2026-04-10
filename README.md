@@ -32,9 +32,7 @@ FRC Engine combine :
 
 - 🧠 **Important :**  
 - **Low Latency**, **Game Focus** et **FPS Boost** peuvent être utilisés **sans lancer les optimisations système**.
--
 - 👉 Donc si vous ne souhaitez pas modifier Windows en profondeur, vous pouvez simplement utiliser les **modules live** pendant vos sessions de jeu.
--
 - Les optimisations système permettent d’aller plus loin, mais les fonctions live restent déjà **utiles, actives et indépendantes** à elles seules. 🎮⚡
 
 ---
