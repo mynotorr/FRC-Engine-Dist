@@ -1,0 +1,1085 @@
+==================================================================================
+# NOTICE UTILISATEUR — FRC Engine v2.1
+==================================================================================
+
+## Présentation
+
+**FRC Engine v2.1** est une suite d’optimisation Windows orientée **gaming compétitif**, conçue pour améliorer la **réactivité**, réduire l’input lag, stabiliser les frametimes et maintenir un système plus propre pendant les sessions de jeu.
+
+Le logiciel agit à plusieurs niveaux :
+
+- optimisation Windows
+- nettoyage mémoire
+- maintenance temps réel
+- surveillance du contexte de jeu
+- gestion du focus application / jeu
+- overlay de monitoring
+- gestion intelligente des modes de performance
+- boost global simplifié avec **ALL IN ONE BOOST**
+
+FRC Engine n’est pas un simple “nettoyeur”.  
+Il agit aussi sur des paramètres système avancés afin d’obtenir un comportement plus réactif, plus stable et plus cohérent pendant les sessions gaming.
+
+---
+
+## Important avant utilisation
+
+### 1. Exécution en administrateur
+
+FRC Engine doit être lancé avec les **droits administrateur** pour appliquer correctement certaines optimisations système et accéder aux fonctions avancées.
+
+### 2. Utilisation raisonnée
+
+Certaines optimisations système profondes n’ont **pas besoin d’être relancées tous les jours**.
+
+Les fonctions de maintenance live, elles, peuvent rester actives pendant les sessions de jeu.
+
+### 3. Redémarrage
+
+Certaines optimisations nécessitent un **redémarrage du PC** pour être appliquées complètement.
+
+Après une optimisation Windows, le bouton peut afficher **REDÉMARRER** afin d’indiquer qu’un redémarrage est recommandé.
+
+Après redémarrage du PC, FRC Engine revient automatiquement à son état normal avec le bouton **optimisation windows**.
+
+### 4. Modules live indépendants
+
+Les modules live peuvent être utilisés **sans lancer l’optimisation Windows complète**.
+
+Vous pouvez donc utiliser directement :
+
+- **APP FOCUS**
+- **GAME FOCUS**
+- **LOW LATENCY**
+- **FPS BOOST**
+- **ALL IN ONE BOOST**
+- **AUTO-CLEAN**
+- **OVERLAY**
+
+sans forcément modifier Windows en profondeur.
+
+### 5. Compatibilité
+
+FRC Engine est conçu pour Windows et cible principalement un usage :
+
+- gaming compétitif
+- recherche de faible latence
+- optimisation manuelle / assistée du système
+- maintien d’un environnement plus propre pendant les sessions
+
+---
+
+## Philosophie de fonctionnement
+
+FRC Engine v2.1 repose sur deux grands principes.
+
+### A. Optimiser le système
+
+Le moteur applique des optimisations afin de rendre Windows plus réactif, plus propre et plus cohérent pour le jeu.
+
+### B. Maintenir la performance en temps réel
+
+Pendant que vous jouez, le moteur continue de surveiller et d’ajuster certains comportements afin d’éviter que le système soit perturbé par des tâches inutiles ou des changements de contexte mal gérés.
+
+La version 2.1 ajoute aussi une logique plus simple avec **ALL IN ONE BOOST**, pensée pour activer rapidement un environnement orienté performance sans devoir gérer chaque module un par un.
+
+---
+
+## Interface générale
+
+L’interface affiche plusieurs zones :
+
+- les boutons d’action principaux
+- les modes temps réel
+- les informations système
+- les informations live
+- les journaux / logs
+- les états d’activité des modules
+- les indicateurs de fluidité et de santé PC
+
+Le logiciel a été conçu pour rester lisible, réactif et exploitable rapidement, même pendant une session de jeu.
+
+---
+
+## Description des principales fonctions
+
+## OPTIMISATION WINDOWS
+
+Bouton principal d’optimisation système.
+
+Cette fonction applique les optimisations majeures prévues par FRC Engine.
+
+Elle agit sur des réglages Windows afin d’améliorer :
+
+- la réactivité générale
+- la latence perçue
+- la stabilité des performances
+- le comportement système orienté jeu
+- la cohérence de l’environnement Windows pendant les sessions gaming
+
+### Quand l’utiliser ?
+
+- après installation du logiciel
+- après une grosse mise à jour Windows
+- après une remise à zéro du système
+- après un changement important de configuration
+- occasionnellement, pas en boucle tous les jours
+
+### Comportement du bouton
+
+Après l’optimisation, le bouton peut afficher :
+
+**REDÉMARRER**
+
+Cela signifie qu’un redémarrage est recommandé pour finaliser certaines modifications.
+
+Après redémarrage du PC, au prochain lancement de FRC Engine, le bouton revient automatiquement à son texte d’origine :
+
+**optimisation windows**
+
+Il n’y a plus de timer d’attente inutile après redémarrage.
+
+---
+
+## ROLLBACK
+
+Fonction de secours.
+
+Elle permet de restaurer les réglages par défaut ou de revenir à un état plus neutre si vous souhaitez annuler les optimisations appliquées.
+
+### Quand l’utiliser ?
+
+- si vous voulez revenir vers un comportement Windows plus standard
+- si vous changez de logique d’optimisation
+- pour dépannage ou test comparatif
+- si vous souhaitez vérifier la différence avant / après optimisation
+
+---
+
+## ALL IN ONE BOOST
+
+Mode boost global simplifié.
+
+**ALL IN ONE BOOST** permet d’activer rapidement une logique de performance complète sans devoir gérer chaque module séparément.
+
+Ce mode est pensé pour les utilisateurs qui veulent une utilisation simple :
+
+1. ouvrir FRC Engine
+2. activer **ALL IN ONE BOOST**
+3. lancer le jeu
+4. laisser le moteur gérer le comportement live
+
+### Objectif
+
+- simplifier l’utilisation du moteur
+- regrouper les principales logiques live
+- renforcer la cohérence entre les modules
+- aider le PC à rester concentré sur le jeu ou l’application active
+- réduire les perturbations inutiles en arrière-plan
+
+### Logiques concernées selon le moteur
+
+- APP FOCUS
+- GAME FOCUS
+- LOW LATENCY
+- FPS BOOST
+- AUTO-CLEAN
+- maintien actif
+- adaptation selon le contexte jeu / bureau
+
+---
+
+## APP FOCUS
+
+Mode de focalisation application.
+
+**APP FOCUS** est conçu pour renforcer la priorité et la cohérence de l’application active.
+
+Son rôle est d’aider Windows à mieux se concentrer sur ce qui est réellement utilisé au premier plan.
+
+### Ce que fait ce mode
+
+- surveille l’application active
+- renforce le focus sur la fenêtre utilisée
+- améliore la cohérence du comportement système
+- limite certaines perturbations en arrière-plan
+- accompagne les jeux et les applications importantes
+
+### Important
+
+APP FOCUS ne remplace pas GAME FOCUS.
+
+Il agit comme une couche complémentaire qui améliore le comportement global du moteur, même lorsque le contexte n’est pas strictement identifié comme un jeu.
+
+---
+
+## GAME FOCUS
+
+Mode de focalisation jeu.
+
+Le rôle de ce module est de détecter le contexte de jeu actif et d’orienter le comportement du moteur pour favoriser le jeu au premier plan.
+
+### Ce que fait ce mode
+
+- surveille le contexte actif
+- détecte le jeu au premier plan
+- renforce l’attention portée au jeu détecté
+- améliore la cohérence des optimisations live quand vous êtes réellement en jeu
+- aide à mieux gérer les transitions jeu / bureau
+- évite autant que possible qu’un ancien état reste “collé” après retour bureau ou Alt+Tab
+
+### Important
+
+GAME FOCUS est fait pour être **réactif**, mais aussi **stable**, afin d’éviter les changements erratiques.
+
+---
+
+## LOW LATENCY
+
+Mode orienté faible latence.
+
+Ce mode renforce la logique de réactivité en privilégiant une approche plus agressive sur la rapidité de réponse du système.
+
+### Objectif
+
+- réduire la sensation d’inertie
+- améliorer la réactivité perçue
+- limiter certaines latences parasites
+- renforcer le comportement orienté compétition
+
+### Conseillé pour
+
+- FPS compétitifs
+- jeux nécessitant une réponse rapide
+- utilisateurs sensibles à l’input lag
+- sessions où la réactivité est prioritaire
+
+---
+
+## FPS BOOST
+
+Mode orienté performance et stabilité des frametimes.
+
+FPS BOOST applique des actions autour du jeu actif afin de maintenir un contexte plus favorable aux performances.
+
+### Objectif
+
+- renforcer la priorité du jeu
+- maintenir le processus principal dans un état favorable
+- réduire certaines pressions de l’arrière-plan
+- améliorer la stabilité des frametimes
+- limiter certains micro-stutters selon les configurations
+- améliorer la fluidité ressentie
+
+### Important
+
+FPS BOOST ne garantit pas les mêmes gains sur tous les PC.
+
+Le résultat dépend du jeu, de Windows, du matériel, des pilotes et du contexte d’utilisation.
+
+---
+
+## AUTO-CLEAN
+
+Module de maintenance mémoire automatique.
+
+Cette fonction permet de nettoyer régulièrement certaines charges mémoire afin de limiter l’accumulation inutile en arrière-plan.
+
+### Objectif
+
+- réduire certains stutters
+- garder une RAM plus propre
+- limiter la dégradation progressive de la fluidité pendant une longue session
+- accompagner les modules live pendant le jeu
+
+### Usage conseillé
+
+Laisser activé pendant les sessions de jeu.
+
+---
+
+## VIDER RAM
+
+Nettoyage mémoire manuel immédiat.
+
+Cette fonction déclenche une purge mémoire à la demande.
+
+### Usage conseillé
+
+- avant de lancer un jeu
+- après avoir quitté une application lourde
+- si vous sentez que le système s’est alourdi
+- avant une session longue
+
+---
+
+## OVERLAY
+
+Affichage en jeu.
+
+L’overlay permet d’afficher un tableau de bord compact directement pendant l’utilisation, afin de garder un œil sur les états du moteur et les informations utiles.
+
+### Ce qu’on peut y retrouver
+
+- score de performance
+- état de stabilité
+- modules actifs
+- informations live
+- état GAME FOCUS
+- état LOW LATENCY
+- état global du moteur
+- indicateurs de fluidité et de santé PC selon la version
+
+### Intérêt
+
+Éviter de revenir en permanence sur l’interface principale pour savoir ce que fait le moteur.
+
+---
+
+## INFO LOGICIEL / SYSTÈME
+
+Affiche les informations liées :
+
+- au logiciel
+- au matériel
+- au système
+- à la mémoire
+- au CPU / GPU selon les modules disponibles
+
+Permet d’avoir une vue globale de l’environnement dans lequel tourne FRC Engine.
+
+---
+
+## DEEP CLEAN
+
+Nettoyage système avancé.
+
+Cette fonction s’attaque aux fichiers temporaires, résidus et déchets système plus lourds.
+
+### Utilisation recommandée
+
+- ponctuellement
+- avant ou après une grosse session d’entretien
+- après certaines mises à jour Windows
+- si le système semble encombré
+
+---
+
+## NETTOYAGE RÉSEAU
+
+Module de remise à plat du réseau.
+
+Cette fonction aide à repartir sur une base plus propre côté réseau.
+
+### Objectif
+
+- assainir certains états réseau
+- remettre à zéro certains paramètres ou caches
+- aider à retrouver un comportement réseau plus stable dans certains cas
+
+### Usage conseillé
+
+- si la connexion semble instable
+- après un souci réseau
+- après des modifications réseau système
+- après plusieurs tests ou changements de configuration
+
+---
+
+## DÉMARRAGE AUTOMATIQUE
+
+Permet de lancer FRC Engine automatiquement à l’ouverture de session, avec la logique prévue par le logiciel.
+
+### Intérêt
+
+- éviter un oubli
+- avoir les modules disponibles immédiatement
+- conserver une routine simple et propre
+- préparer rapidement une session gaming
+
+---
+
+## FLUIDITÉ
+
+Indique en temps réel la qualité globale de fluidité de la session.
+
+Cette information permet d’avoir une lecture rapide de la stabilité, de la régularité et de la sensation de jeu plus lisse.
+
+---
+
+## SANTÉ PC
+
+Indique en temps réel l’état général du système.
+
+Cette information permet de voir si le PC reste stable, sain et bien équilibré pendant l’utilisation.
+
+---
+
+## Comprendre les états live
+
+L’interface et/ou l’overlay peuvent afficher des informations live sous forme condensée.
+
+Exemples :
+
+- état GAME FOCUS
+- état APP FOCUS
+- état LOW LATENCY
+- état FPS BOOST
+- état ALL IN ONE BOOST
+- score de performance
+- état de stabilité
+- activité moteur
+- santé PC
+- fluidité
+
+Les intitulés courts dans les lignes live servent à gagner de la place sans nuire à la lecture.
+
+---
+
+## Conseils d’utilisation
+
+### Avant de jouer
+
+1. Lancez FRC Engine en administrateur
+2. Vérifiez l’état général du système
+3. Activez les modules souhaités
+4. Activez **ALL IN ONE BOOST** si vous voulez un mode simple et global
+5. Videz la RAM si nécessaire
+6. Lancez le jeu
+
+### Pendant le jeu
+
+- laissez FRC Engine ouvert
+- laissez l’overlay actif si vous en avez besoin
+- gardez AUTO-CLEAN / APP FOCUS / GAME FOCUS / LOW LATENCY / FPS BOOST selon votre usage
+- utilisez ALL IN ONE BOOST si vous voulez laisser le moteur gérer une logique globale
+
+### Après une grosse mise à jour Windows
+
+- relancez l’optimisation principale si nécessaire
+- redémarrez la machine
+- contrôlez que les modules sont cohérents
+
+---
+
+## Recommandations générales
+
+- ne spammez pas les gros nettoyages inutilement
+- utilisez les optimisations profondes avec logique
+- gardez les modules live pour les sessions de jeu
+- testez en conditions réelles sur vos jeux habituels
+- comparez vos sensations de fluidité, réactivité et stabilité
+- évitez de multiplier plusieurs outils d’optimisation en même temps
+
+---
+
+## Ce que FRC Engine n’est pas
+
+FRC Engine n’est pas :
+
+- un antivirus
+- un benchmark officiel
+- un outil magique garantissant les mêmes gains sur tous les PC
+- un simple nettoyeur de fichiers
+- une garantie de FPS identique sur toutes les configurations
+
+Il s’agit d’un moteur d’optimisation orienté usage réel, ressenti en jeu, stabilité et réactivité.
+
+---
+
+## Bonnes pratiques
+
+- garder Windows propre
+- garder les drivers à jour
+- limiter les applications inutiles en fond
+- éviter les conflits avec d’autres outils d’optimisation
+- tester sur vos jeux principaux
+- redémarrer après une optimisation système importante
+
+---
+
+## Dépannage rapide
+
+### Le logiciel semble moins efficace que prévu
+
+- vérifiez que vous êtes bien en administrateur
+- redémarrez après une grosse optimisation
+- contrôlez les modules actifs
+- testez sur plusieurs jeux
+- évitez d’utiliser plusieurs optimiseurs en même temps
+
+### Le système semble différent après optimisation
+
+- c’est normal : le moteur peut modifier le comportement de Windows
+- utilisez ROLLBACK si vous souhaitez revenir à un état plus standard
+
+### L’overlay n’apparaît pas comme prévu
+
+- vérifiez qu’il est activé
+- vérifiez le mode d’affichage du jeu
+- relancez le logiciel si nécessaire
+
+### Le bouton affiche REDÉMARRER
+
+- cela signifie qu’une optimisation vient d’être appliquée
+- redémarrez le PC pour finaliser les changements
+- après redémarrage, le bouton revient automatiquement à **optimisation windows**
+
+---
+
+## Conclusion
+
+FRC Engine v2.1 est conçu pour les utilisateurs qui veulent un Windows plus réactif, plus stable et plus cohérent en jeu.
+
+Pour de meilleurs résultats :
+
+- appliquez l’optimisation principale avec logique
+- redémarrez quand le logiciel le demande
+- laissez les modules live actifs pendant vos sessions
+- utilisez ALL IN ONE BOOST pour simplifier l’utilisation
+- testez en conditions réelles
+- ajustez votre usage selon votre matériel et vos jeux
+
+==================================================================================
+# USER GUIDE — FRC Engine v2.1
+==================================================================================
+
+## Overview
+
+**FRC Engine v2.1** is a Windows optimization suite designed for **competitive gaming**, built to improve **responsiveness**, reduce input lag, stabilize frametimes, and keep the system cleaner during gaming sessions.
+
+The software works on several levels:
+
+- Windows optimization
+- memory cleanup
+- real-time maintenance
+- game context monitoring
+- application / game focus handling
+- monitoring overlay
+- intelligent performance mode management
+- simplified global boost with **ALL IN ONE BOOST**
+
+FRC Engine is not just a simple “cleaner.”  
+It also works on advanced system settings to deliver a more responsive, more stable, and more consistent in-game behavior.
+
+---
+
+## Important Before Use
+
+### 1. Run as Administrator
+
+FRC Engine must be launched with **administrator privileges** in order to properly apply certain system optimizations and access advanced functions.
+
+### 2. Use It Properly
+
+Some deep system optimizations do **not need to be reapplied every day**.
+
+Live maintenance functions, however, can remain active during gaming sessions.
+
+### 3. Restart
+
+Some optimizations require a **PC restart** to be fully applied.
+
+After Windows optimization, the button may display **RESTART** to indicate that a restart is recommended.
+
+After restarting the PC, FRC Engine automatically returns to its normal state with the **optimisation windows** button.
+
+### 4. Independent Live Modules
+
+FRC Engine live modules can be used **without running the full Windows optimization**.
+
+You can directly use:
+
+- **APP FOCUS**
+- **GAME FOCUS**
+- **LOW LATENCY**
+- **FPS BOOST**
+- **ALL IN ONE BOOST**
+- **AUTO-CLEAN**
+- **OVERLAY**
+
+without necessarily modifying Windows deeply.
+
+### 5. Compatibility
+
+FRC Engine is designed for Windows and mainly targets:
+
+- competitive gaming
+- low-latency usage
+- manual / assisted system optimization
+- maintaining a cleaner environment during sessions
+
+---
+
+## Operating Philosophy
+
+FRC Engine v2.1 is based on two main principles.
+
+### A. Optimize the System
+
+The engine applies optimizations to make Windows more responsive, cleaner, and more consistent for gaming.
+
+### B. Maintain Performance in Real Time
+
+While you play, the engine continues to monitor and adjust certain behaviors to prevent the system from being disturbed by unnecessary background tasks or poorly handled context changes.
+
+Version 2.1 also adds a simpler logic with **ALL IN ONE BOOST**, designed to quickly enable a performance-oriented environment without having to manage each module one by one.
+
+---
+
+## General Interface
+
+The interface displays several areas:
+
+- main action buttons
+- real-time modes
+- system information
+- live information
+- logs / journals
+- module activity states
+- fluidity and PC health indicators
+
+The software was designed to remain readable, responsive, and quick to use, even during a gaming session.
+
+---
+
+## Main Features Description
+
+## WINDOWS OPTIMIZATION
+
+Main system optimization button.
+
+This function applies the major optimizations planned by FRC Engine.
+
+It works on Windows settings to improve:
+
+- overall responsiveness
+- perceived latency
+- performance stability
+- gaming-oriented system behavior
+- Windows environment consistency during gaming sessions
+
+### When should it be used?
+
+- after installing the software
+- after a major Windows update
+- after resetting the system
+- after an important configuration change
+- occasionally, not in a daily loop
+
+### Button behavior
+
+After optimization, the button may display:
+
+**RESTART**
+
+This means that a restart is recommended to finalize some changes.
+
+After restarting the PC, on the next FRC Engine launch, the button automatically returns to its original text:
+
+**optimisation windows**
+
+There is no longer any unnecessary waiting timer after restart.
+
+---
+
+## ROLLBACK
+
+Recovery function.
+
+It restores default settings or returns to a more neutral state if you want to cancel the applied optimizations.
+
+### When should it be used?
+
+- if you want to go back to a more standard Windows behavior
+- if you want to change your optimization approach
+- for troubleshooting or comparison testing
+- if you want to compare before / after optimization behavior
+
+---
+
+## ALL IN ONE BOOST
+
+Simplified global boost mode.
+
+**ALL IN ONE BOOST** allows you to quickly enable a complete performance logic without having to manage each module separately.
+
+This mode is designed for users who want simple usage:
+
+1. open FRC Engine
+2. enable **ALL IN ONE BOOST**
+3. launch the game
+4. let the engine manage the live behavior
+
+### Purpose
+
+- simplify engine usage
+- group the main live logic
+- improve consistency between modules
+- help the PC stay focused on the game or active application
+- reduce unnecessary background disturbances
+
+### Logic involved depending on the engine
+
+- APP FOCUS
+- GAME FOCUS
+- LOW LATENCY
+- FPS BOOST
+- AUTO-CLEAN
+- active maintenance
+- adaptation depending on game / desktop context
+
+---
+
+## APP FOCUS
+
+Application focus mode.
+
+**APP FOCUS** is designed to strengthen the priority and consistency of the active application.
+
+Its role is to help Windows better focus on what is actually being used in the foreground.
+
+### What this mode does
+
+- monitors the active application
+- strengthens focus on the used window
+- improves system behavior consistency
+- limits certain background disturbances
+- supports games and important applications
+
+### Important
+
+APP FOCUS does not replace GAME FOCUS.
+
+It acts as a complementary layer that improves the overall behavior of the engine, even when the context is not strictly identified as a game.
+
+---
+
+## GAME FOCUS
+
+Game focus mode.
+
+The purpose of this module is to detect the active game context and guide the engine’s behavior in order to prioritize the game in the foreground.
+
+### What this mode does
+
+- monitors the active context
+- detects the foreground game
+- increases attention on the detected game
+- improves live optimization consistency while you are actually in-game
+- helps manage game / desktop transitions
+- avoids, as much as possible, an old state staying “stuck” after returning to the desktop or after Alt+Tab
+
+### Important
+
+GAME FOCUS is designed to be **responsive**, but also **stable**, in order to avoid erratic switching.
+
+---
+
+## LOW LATENCY
+
+Low-latency-oriented mode.
+
+This mode strengthens the engine’s responsiveness logic by favoring a more aggressive approach to system reaction speed.
+
+### Purpose
+
+- reduce the feeling of inertia
+- improve perceived responsiveness
+- limit certain latency disturbances
+- reinforce competition-oriented behavior
+
+### Recommended for
+
+- competitive FPS games
+- games requiring fast response
+- users sensitive to input lag
+- sessions where responsiveness is the priority
+
+---
+
+## FPS BOOST
+
+Performance and frametime stability mode.
+
+FPS BOOST applies actions around the active game in order to maintain a more favorable performance context.
+
+### Purpose
+
+- strengthen game priority
+- keep the main process in a favorable state
+- reduce certain background pressure
+- improve frametime stability
+- limit certain micro-stutters depending on configuration
+- improve perceived smoothness
+
+### Important
+
+FPS BOOST does not guarantee the same gains on every PC.
+
+The result depends on the game, Windows, hardware, drivers, and usage context.
+
+---
+
+## AUTO-CLEAN
+
+Automatic memory maintenance module.
+
+This function regularly cleans certain memory loads in order to limit unnecessary buildup in the background.
+
+### Purpose
+
+- reduce certain stutters
+- keep RAM cleaner
+- limit gradual loss of fluidity during long sessions
+- support live modules during gameplay
+
+### Recommended use
+
+Leave it enabled during gaming sessions.
+
+---
+
+## EMPTY RAM
+
+Manual instant memory cleanup.
+
+This function triggers an on-demand memory purge.
+
+### Recommended use
+
+- before launching a game
+- after closing a heavy application
+- if the system starts to feel heavier
+- before a long session
+
+---
+
+## OVERLAY
+
+In-game display.
+
+The overlay displays a compact dashboard directly during use, allowing you to monitor engine states and useful information at a glance.
+
+### What it can display
+
+- performance score
+- stability state
+- active modules
+- live information
+- GAME FOCUS state
+- LOW LATENCY state
+- global engine state
+- fluidity and PC health indicators depending on the version
+
+### Benefit
+
+Avoid constantly going back to the main interface just to see what the engine is doing.
+
+---
+
+## SOFTWARE / SYSTEM INFO
+
+Displays information related to:
+
+- the software
+- the hardware
+- the system
+- memory
+- CPU / GPU depending on available modules
+
+It provides a global view of the environment in which FRC Engine is running.
+
+---
+
+## DEEP CLEAN
+
+Advanced system cleanup.
+
+This function targets temporary files, residues, and heavier system junk.
+
+### Recommended use
+
+- occasionally
+- before or after a major maintenance session
+- after certain Windows updates
+- if the system feels cluttered
+
+---
+
+## NETWORK CLEANUP
+
+Network reset and cleanup module.
+
+This function helps restore a cleaner baseline on the network side.
+
+### Purpose
+
+- clean up certain network states
+- reset some parameters or caches
+- help recover more stable network behavior in some situations
+
+### Recommended use
+
+- if the connection feels unstable
+- after a network issue
+- after system-level network changes
+- after several tests or configuration changes
+
+---
+
+## AUTO START
+
+Allows FRC Engine to launch automatically at logon, following the logic planned by the software.
+
+### Benefit
+
+- avoids forgetting to start it
+- keeps modules available immediately
+- maintains a simple and clean routine
+- quickly prepares a gaming session
+
+---
+
+## FLUIDITY
+
+Shows the session’s overall smoothness in real time.
+
+This information gives a quick reading of stability, consistency, and overall in-game fluid feel.
+
+---
+
+## PC HEALTH
+
+Shows the system’s overall condition in real time.
+
+This information indicates whether the PC remains stable, healthy, and well-balanced during use.
+
+---
+
+## Understanding Live States
+
+The interface and/or overlay may display live information in a compact format.
+
+Examples:
+
+- GAME FOCUS state
+- APP FOCUS state
+- LOW LATENCY state
+- FPS BOOST state
+- ALL IN ONE BOOST state
+- performance score
+- stability state
+- engine activity
+- PC health
+- fluidity
+
+Short labels in live lines are used to save space without hurting readability.
+
+---
+
+## Usage Tips
+
+### Before playing
+
+1. Launch FRC Engine as administrator
+2. Check the overall system state
+3. Enable the modules you want
+4. Enable **ALL IN ONE BOOST** if you want a simple global mode
+5. Empty RAM if needed
+6. Launch the game
+
+### During gameplay
+
+- keep FRC Engine open
+- leave the overlay active if needed
+- keep AUTO-CLEAN / APP FOCUS / GAME FOCUS / LOW LATENCY / FPS BOOST enabled depending on your usage
+- use ALL IN ONE BOOST if you want the engine to manage a global logic
+
+### After a major Windows update
+
+- run the main optimization again if needed
+- restart the machine
+- check that the modules are still behaving consistently
+
+---
+
+## General Recommendations
+
+- do not spam heavy cleanup functions unnecessarily
+- use deep optimizations with logic
+- keep live modules enabled during gaming sessions
+- test in real conditions on your usual games
+- compare fluidity, responsiveness, and stability sensations
+- avoid using several optimization tools at the same time
+
+---
+
+## What FRC Engine Is Not
+
+FRC Engine is not:
+
+- an antivirus
+- an official benchmark
+- a magic tool guaranteeing the same gains on every PC
+- a simple file cleaner
+- a guarantee of identical FPS on every configuration
+
+It is an optimization engine focused on real usage, in-game feel, stability, and responsiveness.
+
+---
+
+## Best Practices
+
+- keep Windows clean
+- keep drivers up to date
+- limit unnecessary background applications
+- avoid conflicts with other optimization tools
+- test on your main games
+- restart after an important system optimization
+
+---
+
+## Quick Troubleshooting
+
+### The software feels less effective than expected
+
+- make sure it is running as administrator
+- restart after a major optimization
+- check active modules
+- test on several games
+- avoid using multiple optimization tools at the same time
+
+### The system feels different after optimization
+
+- this is normal: the engine may change the way Windows behaves
+- use ROLLBACK if you want to return to a more standard state
+
+### The overlay does not appear as expected
+
+- check that it is enabled
+- check the game display mode
+- restart the software if needed
+
+### The button displays RESTART
+
+- this means that an optimization has just been applied
+- restart the PC to finalize the changes
+- after restart, the button automatically returns to **optimisation windows**
+
+---
+
+## Conclusion
+
+FRC Engine v2.1 is designed for users who want a more responsive, more stable, and more consistent Windows environment for gaming.
+
+For the best results:
+
+- apply the main optimization with logic
+- restart when the software asks for it
+- keep live modules active during your sessions
+- use ALL IN ONE BOOST to simplify usage
+- test in real conditions
+- adjust your usage according to your hardware and games
+
+==================================================================================
