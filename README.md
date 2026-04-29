@@ -1,10 +1,24 @@
 # 🚀 FRC Engine 2.1 - Windows Gaming Optimization Suite
 
 <p align="center">
-  <img src="https://img.shields.io/github/v/release/mynotorr/FRC-Engine-Dist?style=for-the-badge&color=cyan">
-  <img src="https://img.shields.io/github/downloads/mynotorr/FRC-Engine-Dist/total?style=for-the-badge&color=green">
-  <img src="https://img.shields.io/badge/Language-PowerShell-blue?style=for-the-badge&logo=powershell">
-  <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows">
+  <a href="https://github.com/mynotorr/FRC-Engine-Dist/releases">
+    <img src="https://img.shields.io/github/v/release/mynotorr/FRC-Engine-Dist?style=for-the-badge&color=cyan" alt="Release">
+  </a>
+  <a href="https://github.com/mynotorr/FRC-Engine-Dist/releases">
+    <img src="https://img.shields.io/github/downloads/mynotorr/FRC-Engine-Dist/total?style=for-the-badge&color=green" alt="Downloads">
+  </a>
+  <a href="https://github.com/mynotorr/FRC-Engine-Dist">
+    <img src="https://img.shields.io/badge/Language-PowerShell-blue?style=for-the-badge&logo=powershell" alt="PowerShell">
+  </a>
+  <a href="https://github.com/mynotorr/FRC-Engine-Dist/releases">
+    <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows" alt="Windows">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/mynotorr/FRC-Engine-Dist/releases">
+    <img src="https://img.shields.io/badge/TÉLÉCHARGER-FRC_ENGINE-cyan?style=for-the-badge&logo=github" alt="Télécharger FRC Engine">
+  </a>
 </p>
 
 ---
@@ -468,12 +482,12 @@ FRC Engine repose sur une approche simple :
 
 <p align="left">
   <a href="https://github.com/mynotorr/FRC-Engine-Dist/releases">
-    <img src="https://img.shields.io/badge/TÉLÉCHARGER-FRC_ENGINE-cyan?style=for-the-badge&logo=github">
+    <img src="https://img.shields.io/badge/TÉLÉCHARGER-FRC_ENGINE-cyan?style=for-the-badge&logo=github" alt="Télécharger FRC Engine">
   </a>
   <a href="https://www.paypal.com/ncp/payment/H52TKW7E6PV2S">
-    <img src="https://img.shields.io/badge/SOUTENIR-PAYPAL-blue?style=for-the-badge&logo=paypal">
+    <img src="https://img.shields.io/badge/SOUTENIR-PAYPAL-blue?style=for-the-badge&logo=paypal" alt="Soutenir via PayPal">
   </a>
   <a href="https://discord.gg/votre_lien">
-    <img src="https://img.shields.io/badge/DISCORD-COMMUNAUTÉ-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+    <img src="https://img.shields.io/badge/DISCORD-COMMUNAUTÉ-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Communauté">
   </a>
 </p>
