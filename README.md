@@ -31,7 +31,6 @@ Son objectif n’est pas de promettre des FPS irréalistes, mais d’améliorer 
 
 - la **réactivité**
 - la **stabilité des frametimes**
-- la **propreté mémoire**
 - la **réduction des tâches parasites**
 - la **priorité du jeu actif**
 - la **cohérence Windows pendant le jeu**
@@ -42,7 +41,6 @@ FRC Engine combine plusieurs modules :
 
 - optimisation Windows
 - maintenance temps réel
-- nettoyage mémoire
 - détection active du jeu
 - gestion du focus application
 - overlay live
@@ -60,9 +58,7 @@ Vous pouvez donc utiliser directement :
 - **APP FOCUS**
 - **GAME FOCUS**
 - **LOW LATENCY**
-- **FPS BOOST**
 - **ALL IN ONE BOOST**
-- **AUTO-CLEAN**
 - **OVERLAY**
 
 sans forcément modifier Windows en profondeur.
@@ -258,23 +254,20 @@ ALL IN ONE BOOST rend FRC Engine plus accessible, tout en gardant la logique ava
 
 ---
 
-## 🧹 8) AUTO-CLEAN & nettoyage mémoire
+## 🧹 8) Nettoyage mémoire manuel **VIDER RAM**
 
-FRC Engine intègre une logique de nettoyage mémoire pour limiter l’accumulation inutile pendant les sessions.
+FRC Engine intègre un bouton de nettoyage mémoire pour limiter l’accumulation inutile.
 
 Cela permet de :
 
 - garder un état mémoire plus propre
-- réduire certaines dérives après plusieurs minutes ou heures de jeu
-- accompagner les modules live
 - limiter certains comportements parasites
-- conserver une session plus stable
+  
+---
 
-Le moteur peut agir de plusieurs façons :
+## 🧹 8) Nettoyage profond 
 
-- automatiquement via **AUTO-CLEAN**
-- manuellement via **VIDER RAM**
-- plus profondément via **DEEP CLEAN**
+Vide les fichiers temporaires ,prefecht et windows update.
 
 ---
 
@@ -346,42 +339,6 @@ L’objectif est d’avoir un moteur plus intelligent, plus automatique et plus 
 
 ---
 
-## 🔥 Boost & performance live
-
-- **ALL IN ONE BOOST** : active une logique globale de boost gaming simplifiée
-- **APP FOCUS** : renforce le focus et la priorité de l’application active
-- **GAME FOCUS** : renforce le comportement orienté jeu quand un jeu est détecté
-- **LOW LATENCY** : applique une logique orientée réactivité et faible latence
-- **FPS BOOST** : pousse le contexte de performance autour du jeu actif
-
----
-
-## 🧠 Maintenance temps réel
-
-- **AUTO-CLEAN** : nettoyage mémoire automatique pendant la session
-- **VIDER RAM** : purge mémoire manuelle immédiate
-- **DEEP CLEAN** : nettoyage plus poussé
-
----
-
-## 🌐 Nettoyage
-
-- **NETTOYAGE RÉSEAU** : remise à plat de certaines bases réseau Windows
-
----
-
-## 🖥️ Monitoring
-
-- **OVERLAY** : affichage live en jeu
-- **INFO LOGICIEL / SYSTÈME** : informations sur le moteur, le système et le matériel
-
----
-
-## 🔌 Démarrage
-
-- **DÉMARRAGE AUTOMATIQUE** : lancement automatique de FRC Engine à l’ouverture de session Windows
-
----
 
 # 📈 Ce que FRC Engine cherche à améliorer
 
